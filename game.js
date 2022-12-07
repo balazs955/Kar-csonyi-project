@@ -1,5 +1,5 @@
 // define the time limit
-let TIME_LIMIT = 40;
+let TIME_LIMIT = 5;
  
 // define quotes to be used
 let quotes_array = [
@@ -153,6 +153,10 @@ function updateTimer() {
     wpm_group.style.display = "block";
 
     if (accuracy_text.textContent >= 70) {
-        document.getElementById("nyertel").innerHTML = "Gratulálunk! 70 % felett vagy! A kódod: MARKY1"
+      document.getElementById("nyertel").innerHTML = "Gratulálunk! 70 % felett vagy! A kódod: kiraly"
+      document.getElementById("nyertel").style.color = "#ffffff";
+      document.getElementById("nyertel").style.fontSize = "x-large";
+      document.getElementById("nyertel").style.outline = " 5px solid #000000";
+      document.getElementById("nyertel").style.background = "#000000";
     }
   }
