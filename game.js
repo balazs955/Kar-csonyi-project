@@ -1,5 +1,5 @@
 // define the time limit
-let TIME_LIMIT = 5;
+let TIME_LIMIT = 40;
  
 // define quotes to be used
 let quotes_array = [
